@@ -16,5 +16,8 @@
     "url": "https://github.com/joshishu/dag-n-drop/issues"
   },
   "homepage": "https://github.com/joshishu/dag-n-drop",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
