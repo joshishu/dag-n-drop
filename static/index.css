@@ -1,0 +1,14 @@
+div.border2 {
+    border: solid black;
+}
+
+i {
+    font-size: 1rem;
+    top: .5rem;
+    left: .75rem;
+}
+
+input#searchinput {
+    padding-left: 2.5rem;
+}
+
