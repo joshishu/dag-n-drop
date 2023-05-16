@@ -7,8 +7,16 @@ const operators = [
 const tasks = []; // {name: string, operator: operator} list
 const deps = []; // {start: task.name, end: task.name} list
 
-const handleClick = function(name, canvas){
-    console.log(`${name} ${canvas}`);
+const handleClick = function(operator, canvas){
+    const task = {name:operator.name, operator: operators.find(({name}) => name === operator.name)};
+    tasks.push(task);
+    const rect = new fabric.Rect({fill: 'red'});
+    const text = new fabric.Text(operator.name, {originX: 'center', originY: 'center'});
+    const grp = new fabric.Group([rect, text], {
+        left: 0,
+        top: 0
+    });
+    canvas.add(grp);
 };
 
 $(function(){
