@@ -19,7 +19,8 @@
   "homepage": "https://github.com/joshishu/dag-n-drop",
   "private": true,
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "js-yaml": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "^8.40.0"

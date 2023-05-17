@@ -12,3 +12,7 @@ input#searchinput {
     padding-left: 2.5rem;
 }
 
+div#searchresults {
+    overflow: auto;
+}
+
